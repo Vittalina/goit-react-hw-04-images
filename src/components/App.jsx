@@ -12,7 +12,6 @@ const App = () => {
   const [gallery, setGallery] = useState([]);
   const [searchQueryPicture, setSearchQueryPicture] = useState('');
   const [page, setPage] = useState(1);
-  //   const [perPage, setPerPage] = useState(12);
   const [loading, setLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [largeImageURL, setLargeImageURL] = useState(null);
