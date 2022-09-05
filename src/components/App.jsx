@@ -15,14 +15,8 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [largeImageURL, setLargeImageURL] = useState(null);
-  // const isFirstRender = useRef(true);
 
   useEffect(() => {
-    // if (isFirstRender.current) {
-    //   isFirstRender.current = false;
-    //   return;
-    // }
-
     if (searchQueryPicture === '') {
       return;
     }
